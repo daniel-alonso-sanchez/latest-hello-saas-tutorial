@@ -17,7 +17,8 @@
     "build": "npm run get-env && env-cmd -f .config-env env-cmd -f .env react-scripts build",
     "build:netlify": "npm run get-env-netlify && CI=false && env-cmd -f .config-env env-cmd -f .env react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "livesync": "node node_modules/@magnolia/cli @magnolia/livesync"
   },
   "browserslist": {
     "production": [
