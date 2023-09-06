@@ -1,4 +1,0 @@
-version: 1.0
-dependencies:
-  pages-norsu-app:
-    version: "*"
