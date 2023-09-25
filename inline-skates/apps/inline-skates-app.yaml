@@ -1,8 +1,0 @@
-!content-type:inline-skate
-name: inline-skates-app
-label: inline-skates
-
-#Optionally override any of the app configuration supplied by the content type.
-subApps:
-  detail:
-    label: inline skate Detail
