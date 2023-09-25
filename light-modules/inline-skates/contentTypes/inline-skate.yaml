@@ -1,0 +1,15 @@
+datasource:
+  $type: contentTypeDatasource
+  workspace: inline-skates
+  autoCreate: true
+
+model:
+  nodeType: inline-skate
+  properties:
+    name:
+      label: Name
+      required: true
+
+    description:
+      type: richText
+      label: Description
